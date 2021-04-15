@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<note>
-  <to>Tove</to>
+<shiporder>
+  <item><note>special Edition here!
+  </note>
+  </item>
   <from>Jani</from>
   <heading>Reminder</heading>
-  <body>Don't forget me this weekend!</body>
-</note>
+  <body>testing for this xpath for test 4: /shiporder/item/note[contains(text(),"Edition")]</body>
+</shiporder>
